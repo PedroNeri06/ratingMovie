@@ -76,3 +76,4 @@ C:\Users\pedro\OneDrive\Área de Trabalho\ratingMovie\bin\Debug\net7.0\Microsoft
 C:\Users\pedro\OneDrive\Área de Trabalho\ratingMovie\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\pedro\OneDrive\Área de Trabalho\ratingMovie\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\pedro\OneDrive\Área de Trabalho\ratingMovie\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ratingMovie\obj\Debug\net7.0\ratingMovie.sourcelink.json

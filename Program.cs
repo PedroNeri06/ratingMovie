@@ -2,8 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using ratingMovie.DATA;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("ConnectionData");
 
-builder.Services.AddDbContext<DataMovie>(Options => Options.UseMySql(builder.Configuration.GetConnectionString("ConnectionData"), ServerVersion.AutoDetect("ConnectionData")));
+builder.Services.AddDbContext<DataMovie>(Options => Options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 //string connectionString = "FilmeConnection";
 

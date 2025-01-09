@@ -21,5 +21,5 @@ public class Movie
     public double? Score { get; set; }
 
     [Required(ErrorMessage = "os generos é obrigatorio")]
-    public List<string>? Genres { get; set; }
+    public string? Genres { get; set; }
 };
