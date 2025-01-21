@@ -1,12 +1,7 @@
-
 using System.ComponentModel.DataAnnotations;
-
-namespace ratingMovie.Models;
-
-public class Movie
+namespace ratingMovie.DATA.Dto;
+public class UpdateMovieTdo
 {
-
-    public int Id { get; set; }
     [Required(ErrorMessage = "o nome é obrigatorio")]
     [MinLength(3, ErrorMessage = "o titulo do filme tem que ter mais de três letras")]
     public string? Name { get; set; }
@@ -21,4 +16,4 @@ public class Movie
 
     [Required(ErrorMessage = "os generos é obrigatorio")]
     public string? Genres { get; set; }
-};
+}

@@ -4,6 +4,8 @@ using ratingMovie.DATA;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ConnectionData");
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 builder.Services.AddDbContext<DataMovie>(Options => Options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 //string connectionString = "FilmeConnection";
